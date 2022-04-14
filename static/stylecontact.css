@@ -1,0 +1,57 @@
+h1 {
+    text-align: center;
+    align-items: center;
+    font-size: 40px;
+    color: rgb(31, 26, 26);
+    padding: 11px;
+    background-image: linear-gradient(white, rgb(231, 177, 186));
+}
+
+.myform {
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    height: 75vh;
+    background-image: linear-gradient(white, rgb(231, 177, 186));
+    padding: 0px;
+}
+
+.myinput {
+    border-radius: 9px;
+    padding: 5px;
+    border: 3px solid black;
+    margin: 8px 0px;
+    width: 704px;
+    color: blue;
+    background-color: #d3eaf3;
+}
+
+.submitting {
+    display: flex;
+    width: 717px;
+}
+
+.submitting button {
+    align-items: center;
+    margin: auto;
+}
+
+.btn {
+    border-radius: 15px;
+    border: none;
+    height: 42px;
+    width: 120px;
+    font-weight: bold;
+    font-size: 20px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: white;
+    color: black;
+}

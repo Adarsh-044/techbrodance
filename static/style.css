@@ -1,0 +1,201 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gluten&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Are+You+Serious&family=Gluten&display=swap');
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+#navbar {
+    background-color: #1596ff;
+    font-family: 'Gluten', cursive;
+    padding: 13px, 14px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: black;
+}
+
+#navbar ul {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    padding: 3px;
+}
+
+#navbar li {
+    list-style: none;
+}
+
+#navbar li a {
+    text-decoration: none;
+    padding: 0px 27px 2px 23px;
+}
+
+#navbar li a:hover {
+    color: black;
+    background-color: white;
+    border-radius: 20px;
+}
+
+#logo {
+    margin: 0px 520px 0px 20px;
+    padding: 0px;
+}
+
+#logo img {
+    filter: invert(1);
+    border-radius: 103px;
+    height: 49px;
+    width: 69px;
+    justify-content: center;
+    margin: 0px;
+    padding: 0px;
+    align-items: center;
+    display: flex;
+}
+
+#logo img:hover {
+    transform: scale(1.2);
+    filter: invert(0);
+}
+
+#introSection::before {
+    content: " ";
+    position: absolute;
+    top: 55px;
+    left: 0px;
+    background-image: url("/static/dance.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 60%;
+    height: 90%;
+    width: 100%;
+    opacity: 0.5;
+    z-index: -1;
+}
+
+#introSection {
+    color: rgb(245, 98, 12);
+    margin: 30px;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Are You Serious', cursive;
+    font-family: 'Gluten', cursive;
+    font-size: 53px;
+    align-items: center;
+    height: 40vh;
+}
+
+#introSection div.small {
+    font-size: 52px;
+    padding: 5px;
+    margin: 1 0px 0px 0px 0px;
+}
+
+#missionSection {
+    height: 300px;
+    background-color: #8fcbe7c7;
+}
+
+#missionSection h2 {
+    font-size: 36px;
+    color: rgb(103 56 141);
+    font-family: 'Gluten', cursive;
+    text-align: center;
+    padding-top: 12px;
+}
+
+.card {
+    background-color: #e1d1d1;
+    display: inline-block;
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 29%;
+    margin: 27px 25px;
+    height: 199px;
+}
+
+.card-img {
+    height: 136px;
+    padding: 1px 0px 1px 27px;
+    margin: 12px 0px;
+}
+
+.card-img img {
+    height: inherit;
+    filter: invert(1);
+    border-radius: 10px;
+}
+
+.card-img img:hover {
+    transform: scale(1.1);
+    filter: invert(0);
+    border-radius: 10px;
+}
+
+.card h3 {
+    text-align: center;
+    margin: 0 12px;
+    color: #951160;
+    margin-top: 10px;
+    font-family: 'Are You Serious', cursive;
+    font-family: 'Gluten', cursive;
+}
+
+.card p {
+    color: black;
+}
+
+.card-box {
+    margin: 0px -12px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.card-content {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+}
+
+#sponsorsSection {
+    height: 300px;
+    background-color: #fbd6d6c7;
+    display: flex;
+    flex-direction: column;
+}
+
+#sponsorsSection h2 {
+    font-size: 36px;
+    color: rgb(103 56 141);
+    font-family: 'Gluten', cursive;
+    text-align: center;
+    padding-top: 12px;
+}
+
+#sponsars {
+    height: 120px;
+    max-width: 10px;
+    display: flex;
+    justify-content: space-between
+}
+
+.spImage {
+    height: 125px;
+    width: 260px;
+    margin: 20px 0px 0px 0px;
+    padding: 20px 52px;
+}
+
+#footer {
+    background-color: black;
+    height: 40px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

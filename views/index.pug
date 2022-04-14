@@ -1,0 +1,60 @@
+doctype html
+html
+  head
+    style
+      include ../static/style.css
+  body
+    nav#navbar 
+        ul  
+            div#logo
+              img(src="/static/logo.png")
+            li #[a(href = "/") Home]
+            li #[a(href = "/") About]
+            li #[a(href = "/") Services]
+            li #[a(href = "/") Classes]
+            li #[a(href = "/") Contact]
+    section#introSection
+        div Welcome to Stars Dance Academy 
+        div.small Dance the way You like 
+
+    section#missionSection
+        h2 Our Missions 
+        div.card 
+          h3 Dance Perfection 
+           div.card-box
+            .card-img  
+             img(src = "/static/images/img1.jpg")
+            div.card-content
+                    p we live to dance.
+                    p We are passionate about dance the personal growth of all our students. 
+        div.card 
+          h3 Dance the way you like 
+           div.card-box
+            .card-img 
+              img(src = "/static/images/img2.jpg")
+            div.card-content
+                    p Dance is a gift that brings people together with creativity and music.
+
+        div.card 
+          h3 Expert Teaching
+           div.card-box 
+            .card-img 
+              img(src = "/static/images/img3.png")
+            div.card-content
+                    p This is the best dance academy of the universe
+
+
+
+    section#sponsorsSection 
+        h2 Our Sponsars 
+        #sponsars 
+          img(src = "/static/images/spon1.png", alt = "Sponsars Images" class ="spImage" )
+          img(src = "/static/images/spon2.png", alt = "Sponsars Images" class ="spImage" )
+          img(src = "/static/images/spon3.jpg", alt = "Sponsars Images" class ="spImage" )
+          img(src = "/static/images/spon4.png", alt = "Sponsars Images" class ="spImage" )
+
+    footer#footer
+        | Copyright © 2019 StarsAcademy.com | All Rights Reserved 
+
+    script
+      include ../static/index.js 
